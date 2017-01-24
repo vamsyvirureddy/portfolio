@@ -1,0 +1,121 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+header, section, footer, aside, nav, article, hgroup {
+	display:block;
+}
+.container-fluid{
+    width:100%;
+    height:600px;
+    background-image: url("images/download.jpg");
+}
+
+.navbar-header{
+    text-align: center;
+    padding: 6px;
+        font-size: 14px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.navbar-static-top {
+    border-radius: 5px;
+}
+.navbar-right{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.navbar{
+    margin: 30px;
+    border-radius: 10px;
+    width:95%;
+}
+.maintext{
+        color: lightgrey;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 120px;
+}
+.h1 {
+    font-size: 3.2rem;
+    }
+.description{
+    font-size: 15px;
+    font-style: italic;
+    text-transform: none;
+}
+.filp_up{
+    animation-duration: 7s;
+}
+.aheading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    color: lightgrey;
+    font-style: strong;
+    padding-top: 50px;
+    font-family: cursive;
+  
+    
+}
+.atext{
+    font-size: 20px;
+    color: lightgrey;
+     font-family: cursive;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.shake{
+    animation: onhover;
+}
+.wrapper {
+    max-width: 1300px;
+    padding: 30px;
+    margin: 0 auto;
+    background-image: url("images/pattern1.jpg");
+    text-align: center;
+    font-size: 30px;
+    font-family:fantasy;
+    height: 150px;
+}
+.social>li>a>img {
+   
+    margin-left: 3em;
+    width: 50px;
+    height: 50px;
+} 
+ul.social{
+    display:inline-flex;
+    align-content: center;  
+}
+.social>img{
+    z-index:1;
+}
+.bottom_footer{
+    background-color: gray;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1px;
+    font-size: 10px;
+    font-family:monospace;
+    border-top: 4px solid black;
+}
+.inner_wrapper{
+    background-color: #D3D3D3;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
+    margin: 10px;
+    width: 600px;
+    position: absolute;
+    left: 300px;
+}
